@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3996f4d3c5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon Clone</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-top">
+            <img src="./assets/logo.png" alt="amazon" class="logo border">
+            <div class="address flex nav-btn border">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="address-text">
+                    <p>Delivering to Palampur 176061</p>
+                    <p>Update Location</p>
+                </div>
+            </div>
+            <div class="search-bar flex">
+                <select title="category">
+                    <option value="">All</option>
+                    <option value="alexa">Alexa Skills</option>
+                    <option value="amazon-devices">Amazon Devices</option>
+                    <option value="amazon-fashion">Amazon Fashion</option>
+                    <option value="amazon-pharmacy">Amazon Pharmacy</option>
+                    <option value="more">More</option>
+                </select>
+                <input type="text" placeholder="Search Amazon.in">
+                <button class="search-icon" type="submit" title="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="language flex border">
+                <img src="./assets/Flag_of_India.png" alt="india">
+                <p>EN</p>
+            </div>
+            <div class="signin flex flex-col nav-btn border">
+                <p>Hello, Sign In</p>
+                <p>Account & Lists</p>
+            </div>
+            <div class="return flex flex-col nav-btn border">
+                <p>Return</p>
+                <p>& Orders</p>
+            </div>
+            <div class="cart flex nav-btn border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        <div class="header-bottom flex">
+            <ul class="left flex">
+                <li class="border"><a href=""><i class="fa-solid fa-bars"></i> All</a></li>
+                <li class="border"><a href="">Amazon Mini TV</a></li>
+                <li class="border"><a href="">Sell</a></li>
+                <li class="border"><a href="">Best Offers</a></li>
+                <li class="border"><a href="">Today's Deals</a></li>
+                <li class="border"><a href="">Mobiles</a></li>
+                <li class="border"><a href="">Customer Services</a></li>
+                <li class="border"><a href="">Prime</a></li>
+                <li class="border"><a href="">Fashion</a></li>
+                <li class="border"><a href="">Electronics</a></li>
+                <li class="border"><a href="">New Release</a></li>
+                <li class="border"><a href="">Amazon Pay</a></li>
+            </ul>
+            <img src="./assets/offers.jpg" alt="offers" class="right border">
+        </div>
+    </header>
+
+    <div id="hero-banner">
+        <img src="./assets/hero-banner.jpg" alt="herobanner" />
+        <div id="card-section" class="flex">
+            <div class="card flex flex-col">
+                <h2 class="top">Appliances for your home</h2>
+                <div class="mid">
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
+                            alt="Air Conditioners">
+                        <p>Air Conditioners</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
+                            alt="Refrigerators">
+                        <p>Refrigerators</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg"
+                            alt="Microwaves">
+                        <p>Microwaves</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg"
+                            alt="Washing Machines">
+                        <p>Washing Machines</p>
+                    </div>
+                </div>
+                <a href="" class="bottom">See More</a>
+            </div>
+            <div class="card flex flex-col">
+                <h2 class="top">Starting ₹149 | Headphones</h2>
+                <div class="mid">
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg"
+                            alt="boAt">
+                        <p>Starting ₹249 | boAt </p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg"
+                            alt="Boult">
+                        <p>Starting ₹349 | boult</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg"
+                            alt="Noise">
+                        <p>Starting ₹349 | Noise</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg"
+                            alt="Zebronics">
+                        <p>Starting ₹349 Zebronics</p>
+                    </div>
+                </div>
+                <a href="" class="bottom">See More</a>
+            </div>
+            <div class="card flex flex-col">
+                <h2 class="top">Styles for women</h2>
+                <div class="mid">
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-186-116._SY116_CB636048992_.jpg"
+                            alt="Women's Clothing">
+                        <p>Women's Clothing</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-186-116._SY116_CB636048992_.jpg"
+                            alt="Footwear + HandBags">
+                        <p>Footwear + HandBags</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-186-116._SY116_CB636048992_.jpg"
+                            alt="Watches">
+                        <p>Watches</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-186-116._SY116_CB636048992_.jpg"
+                            alt="Fashion Jewellery">
+                        <p>Fashion Jewellery</p>
+                    </div>
+                </div>
+                <a href="" class="bottom">See More</a>
+            </div>
+            <div class="card flex flex-col">
+                <h2 class="top">Automotive essentials</h2>
+                <div class="mid">
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg"
+                            alt="Cleaning accessories">
+                        <p>Cleaning accessories</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg"
+                            alt="Tyre & Rim Care">
+                        <p>Tyre & Rim Care</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg"
+                            alt="Helments">
+                        <p>Helments</p>
+                    </div>
+                    <div class="image-section">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg"
+                            alt="Vaccum Cleaner">
+                        <p>Vaccum Cleaner</p>
+                    </div>
+                </div>
+                <a href="" class="bottom">See More</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="kitchen">
+        <div class="top flex">
+            <h2>Up to 60% off | Inverter batteries, kitchen tools & more from local stores nearby</h2>
+            <a href="">See all offers</a>
+        </div>
+        <div class="images-slider flex">
+            <img src="https://m.media-amazon.com/images/I/41aV8vUlYoL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/41DC55bD3xL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/41I5YFtRFnL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/71jSWB8bb8L._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/71P2fYTGhQL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/51QmaiNH0dL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/61wGU618OVL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/51tCrlAj4ML._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/619mKShJ1US._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/61Jz8MHGQnL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/61Jz8MHGQnL._AC_SY200_.jpg" alt="">
+        </div>
+    </section>
+
+    <section>
+        <div class="top flex">
+            <h2>Up to 70% off | Bestsellers from Indian artisans</h2>
+            <a href="">See all offers</a>
+        </div>
+        <div class="images-slider flex">
+            <img src="https://m.media-amazon.com/images/I/61c+MTaba8L._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/61aHVtYnwmL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/71HyWpTisTL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/61YVaKaguoL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/61JuOwpEFyL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/51JgGCitFPL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/71FmQ1Jes+L._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/71qB2ZUFMeL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/71el9BxJqhL._AC_SY200_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/91iHsS+F1vL._AC_SY200_.jpg" alt="">
+        </div>
+    </section>
+
+    <div id="feature-section" class="flex">
+        <div class="card flex flex-col">
+            <h2 class="top">Appliances for your home</h2>
+            <div class="mid">
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
+                        alt="Air Conditioners">
+                    <p>Air Conditioners</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
+                        alt="Refrigerators">
+                    <p>Refrigerators</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg"
+                        alt="Microwaves">
+                    <p>Microwaves</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg"
+                        alt="Washing Machines">
+                    <p>Washing Machines</p>
+                </div>
+            </div>
+            <a href="" class="bottom">See More</a>
+        </div>
+        <div class="card flex flex-col">
+            <h2 class="top">Starting ₹149 | Headphones</h2>
+            <div class="mid">
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg"
+                        alt="boAt">
+                    <p>Starting ₹249 | boAt </p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg"
+                        alt="Boult">
+                    <p>Starting ₹349 | boult</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg"
+                        alt="Noise">
+                    <p>Starting ₹349 | Noise</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg"
+                        alt="Zebronics">
+                    <p>Starting ₹349 Zebronics</p>
+                </div>
+            </div>
+            <a href="" class="bottom">See More</a>
+        </div>
+        <div class="card flex flex-col">
+            <h2 class="top">Styles for women</h2>
+            <div class="mid">
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-186-116._SY116_CB636048992_.jpg"
+                        alt="Women's Clothing">
+                    <p>Women's Clothing</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-186-116._SY116_CB636048992_.jpg"
+                        alt="Footwear + HandBags">
+                    <p>Footwear + HandBags</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-186-116._SY116_CB636048992_.jpg"
+                        alt="Watches">
+                    <p>Watches</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-186-116._SY116_CB636048992_.jpg"
+                        alt="Fashion Jewellery">
+                    <p>Fashion Jewellery</p>
+                </div>
+            </div>
+            <a href="" class="bottom">See More</a>
+        </div>
+        <div class="card flex flex-col">
+            <h2 class="top">Automotive essentials</h2>
+            <div class="mid">
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg"
+                        alt="Cleaning accessories">
+                    <p>Cleaning accessories</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg"
+                        alt="Tyre & Rim Care">
+                    <p>Tyre & Rim Care</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg"
+                        alt="Helments">
+                    <p>Helments</p>
+                </div>
+                <div class="image-section">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg"
+                        alt="Vaccum Cleaner">
+                    <p>Vaccum Cleaner</p>
+                </div>
+            </div>
+            <a href="" class="bottom">See More</a>
+        </div>
+    </div>
+
+    <div id="sign-in" class="flex flex-col">
+        <div class="top">See personalized recommendations</div>
+        <button class="mid">Sign In</button>
+        <div class="bottom">New customer? <span>Start here.</span></div>
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            Back To Top
+        </div>
+        <div class="footer-mid flex ">
+            <div class="row flex flex-col">
+                <h4>Get to Know Us</h4>
+                <a href="">About Us</a>
+                <a href="">Careers</a>
+                <a href="">Press Release</a>
+                <a href="">Amazon</a>
+            </div>
+            <div class="row  flex flex-col">
+                <h4>Connect with Us</h4>
+                <a href="">Facebook</a>
+                <a href="">Twitter</a>
+                <a href="">Instagram</a>
+            </div>
+            <div class="row  flex flex-col">
+                <h4>Make Money with Us</h4>
+                <a href="">Sell on Amazon</a>
+                <a href="">Sell under Amazon Accelerator</a>
+                <a href="">Protect and Build Your Brand</a>
+                <a href="">Amazon Global Selling</a>
+                <a href="">Become an Affiliate</a>
+                <a href="">Fulfilment by Amazon</a>
+                <a href="">Advertise Your Products</a>
+                <a href="">Amazon Pay on Merchants</a>
+            </div>
+            <div class="row  flex flex-col">
+                <h4>Let Us Help You</h4>
+                <a href="">COVID-19 and Amazon</a>
+                <a href="">Your Account</a>
+                <a href="">Returns Centre</a>
+                <a href="">Recalls and Product Safety Alerts</a>
+                <a href="">100% Purchase Protection</a>
+                <a href="">Amazon App Download</a>
+                <a href="">Help</a>
+            </div>
+        </div>
+        <div class="middle-footer flex">
+            <img src="assets/logo.png" alt="">
+            <div class="right flex">
+                <div class="flex"><i class="fa-solid fa-globe"></i> English</div>
+                <div class="flex"> <img src="assets/Flag_of_India.png" alt=""> India</div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024, Amazon Clone Made By Rohit || All Rights Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
